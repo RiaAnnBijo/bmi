@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(185, 185, 224);
+}
+.calculator {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 200px;
+  }
+
+h1{
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 10px;
+}  
+
+.age{
+  padding-right: 19px;
+}
+
+.height{
+  padding-right: 2px;
+}
+
+.weight{
+  padding-right: 1px;
+}
+
+img {
+  height: 60vh;
+  float: right; /* Use float to position the image on the right */
+  margin-right: 100px; /* Add some margin to separate the image from the content */
+  object-fit: cover;
+}

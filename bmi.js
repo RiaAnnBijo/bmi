@@ -24,7 +24,7 @@ function calculate()
     }
 
     else{
-        alert("You are to young to be calculating your bmi :)")
+        alert("You are to young to be calculating your bmi")
     }
 }
 

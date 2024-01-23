@@ -31,7 +31,7 @@ h1{
 
 img {
   height: 60vh;
-  float: right; /* Use float to position the image on the right */
-  margin-right: 100px; /* Add some margin to separate the image from the content */
+  float: right; 
+  margin-right: 100px; 
   object-fit: cover;
 }

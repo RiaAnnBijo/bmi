@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+    <img id="img" src="https://img.freepik.com/free-vector/flat-woman-diet-control-normal-weight-with-bmi-scale_88138-933.jpg">
+    <div class="calculator">
+        <h1>BMI Calculator</h1>
+        <Label class="height">Height</Label>
+        <input type="number" name="height" id="height">
+        <label style="font-size: 15px">In meters</label>
+        <p>
+        <Label class="weight">Weight</Label>
+        <input type="number" name="weight" id="weight">
+        <label style="font-size: 15px;">Kilograms</label>
+        </p>
+        <p>
+        <Label class="age">Age</Label>
+        <input type="number" name="age" id="age">
+        </p>
+        <div class="button">
+            <button onclick="calculate()">Calculate</button>
+        </div>
+    </div>
+<script src="bmi.js"></script>
+</body>
+</html>
